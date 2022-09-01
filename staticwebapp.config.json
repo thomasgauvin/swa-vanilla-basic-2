@@ -1,0 +1,17 @@
+{
+    "routes": [],
+    "networking": {
+        "allowedIpRanges": ["AzureFrontDoor.Backend"]
+      },
+      "forwardingGateway": {
+        "requiredHeaders": {
+          "X-Azure-FDID" : "searas"
+        },
+        "allowedForwardedHosts": [
+          "aewrwe.net"
+        ]
+      },
+    "mimeTypes": {
+      ".json": "text/json"
+    }
+  }
